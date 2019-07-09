@@ -6,6 +6,8 @@ public class Client{
 
         s.attach(o1);
         s.attach(o2);
+        s.detach(o1);
+        s.detach(o2);
         int i = 0;
         while(i<100){
             s.putValue(i);
