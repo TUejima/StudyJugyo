@@ -1,3 +1,3 @@
-interface Dengen{
-    public int kyuuden();
+abstract class Dengen{
+    abstract int kyuuden();
 }
